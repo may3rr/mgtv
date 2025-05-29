@@ -1,0 +1,70 @@
+############################################
+#  影视语音翻译赛 baseline – .gitignore
+############################################
+
+# ----------------------- Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.Python
+env/
+venv/
+.idea/
+.vscode/
+
+# ----------------------- Logs & outputs
+*.log
+*.tmp
+*.bak
+*.swp
+*.checkpoint
+nohup.out
+
+# ----------------------- Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------------- Model checkpoints & caches
+# Hugging Face、ModelScope、FunASR 等
+~/.cache/huggingface/
+~/.cache/modelscope/
+funasr_cache/
+models/
+*.safetensors
+*.bin
+*.pt
+
+# ----------------------- Datasets & generated artifacts
+data/alg_2025_audios_final/
+data/*_audios*/          # 任何解压后的音频文件夹
+data/*.wav
+data/*.zip
+data/*.tar.gz
+
+# 原始/中间 CSV（可按需求保留）
+data/*_asr.csv
+data/*_predict.csv
+
+# ----------------------- Large archives at project root
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ----------------------- Conda / pip artifacts
+*.conda
+*.egg-info/
+*.dist-info/
+*.whl
+
+# ----------------------- OS metadata
+.DS_Store
+Thumbs.db
+
+# ----------------------- Misc
+*.pkl
+*.npy
+*.npz
+*.onnx
