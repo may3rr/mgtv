@@ -1,8 +1,3 @@
-当然可以！以下是为你当前项目（基于 Paraformer + Whisper + NLLB 构建的中 → 多语翻译系统）编写的 完整 README.md 模板，涵盖了项目结构、依赖安装、数据准备、运行方式、模型说明、贡献方式等部分：
-
-⸻
-
-
 # 🎙️ MTGV 2025 Translation Baseline (ASR + Translation)
 
 本项目是芒果 TV 多语种翻译比赛的基线系统，基于 Paraformer、Whisper 和 NLLB 构建，完成从中文语音到中→英/泰/马文本翻译任务。
@@ -133,19 +128,3 @@ local_nllb_600m/
 	•	Whisper
 	•	NLLB-200
 
-⸻
-
-📬 联系与反馈
-
-欢迎提 issue、发 PR，或联系维护者：
-
-📧 lvhaobo@foxmail.com
-🌐 GitHub: [你的用户名]
-
-⸻
-
-
----
-
-这个 README 内容详细、结构清晰，足以支撑团队协作或比赛提交需要。  
-如你需要 **英文版** 或更偏向 **部署文档** 的风格，我也可以提供版本化模板。需要的话告诉我。
